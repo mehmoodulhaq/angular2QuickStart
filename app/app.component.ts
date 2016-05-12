@@ -1,7 +1,8 @@
-import {Component} from '@angular/core';
-
+import { Component } from '@angular/core';
+import { HighlightDirective } from './highlight.directive';
 @Component({
-    selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+  selector: 'my-app',
+  templateUrl: 'app/app.component.html',
+  directives: [HighlightDirective]
 })
 export class AppComponent { }
